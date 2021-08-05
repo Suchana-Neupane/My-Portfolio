@@ -1,0 +1,104 @@
+ <style> 
+ body{
+   background-color:f1f1f1;
+   margin:0;
+ }
+ h1{
+   background-color:lightblue;
+   padding:10px;
+ }
+   	header,footer{
+   		padding:5px;
+   		background-color:lightblue;
+   		text-align:center;
+   		color:black;
+         font-family: "comic Sans Ms", Ariel;
+         
+   	}
+      nav{
+         overflow:hidden;
+         background-color:lightgreen;
+
+      }
+   	
+   	a{
+         float:left;
+   		padding-right:10px;
+   	   color:black;
+   		margin:10px;
+         text-decoration:none;
+   	}
+      nav a:hover{
+         background-color:blue;
+         color:white;
+      }
+      
+      .column{
+         float:left;
+         padding:10px;
+        margin:10px;
+      }
+        .column.side{
+         width:70%;
+        }
+         .column.middle{
+            width:35%;
+         }
+         .column.side{
+            width:25%;
+         }
+    @media screen and(max-width: 617px){
+      .column.side,.column.middle{
+         width:100%;
+
+     }
+     @media (min-width :523px)
+      /*to make web page responsive*/
+      p{
+         text-align:justify;
+         text-transform:uppercase;
+      }
+    }
+    div.gallery{
+      border:5px solid lightgreen;
+      float:left;
+    }
+    div.gallery:hover{
+      border:5px solid blue;
+    }
+    tr,th,td{
+      border:1px solid black;}
+    
+         footer{
+            clear:both;
+         }
+         input,select{
+            width:100%;
+            padding:12px;
+            border:ipx solid #ccc;
+            margin-top:6px;
+            margin-bottom:16px;
+            resize: verticle;
+         }
+         input[type=radio],input[type=button]{
+            width:10%;
+            padding:12px;
+             border:ipx solid #ccc;
+            margin-top:6px;
+            margin-bottom:16px;
+            resize: verticle;
+         }
+         input[type=button]{
+            background-color:lightgreen;
+            cursor:pointer;
+            color:black;
+            border:2px solid lightblue;
+         }
+         div{
+         	display :flex;
+         	flex-wrap :wrap;
+         }
+
+    </style>
+    
+    
